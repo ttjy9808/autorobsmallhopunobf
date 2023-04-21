@@ -1,5 +1,78 @@
 repeat wait() until game:IsLoaded()
 task.wait(10)
+local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc"}
+
+for , player in ipairs(game.Players:GetPlayers()) do
+    if player.Name == usernameToKick then
+        local cmdlp = game.Players.LocalPlayer
+rejoining = true
+            local Decision = "any"
+            local GUIDs = {}
+            local maxPlayers = 0
+            local pagesToSearch = 100
+            if Decision == "fast" then pagesToSearch = 5 end
+            local Http = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/%22..game.PlaceId..%22/servers/Public?sortOrder=Asc&limit=100&cursor=%22))
+            for i = 1,pagesToSearch do
+                for i,v in pairs(Http.data) do
+                    if v.playing ~= v.maxPlayers and v.id ~= game.JobId then
+                        maxPlayers = v.maxPlayers
+                        table.insert(GUIDs, {id = v.id, users = v.playing})
+                    end
+                end
+                if Http.nextPageCursor ~= null then Http = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/%22..game.PlaceId..%22/servers/Public?sortOrder=Asc&limit=100&cursor=%22..Http.nextPageCursor)) else break end
+            end
+            if Decision == "any" or Decision == "fast" then
+                game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, GUIDs[math.random(1,#GUIDs)].id, cmdlp)
+            elseif Decision == "smallest" then
+                game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, GUIDs[#GUIDs].id, cmdlp)
+            elseif Decision == "largest" then
+                game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, GUIDs[1].id, cmdlp)
+            else
+                print("")
+            end
+            wait(3)
+            rejoining = false
+    end
+end
+local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc"}
+
+function onPlayerJoin(player)
+    for _, username in ipairs(usernamesToKick) do
+        if player.Name == username then
+             local cmdlp = game.Players.LocalPlayer
+rejoining = true
+            local Decision = "any"
+            local GUIDs = {}
+            local maxPlayers = 0
+            local pagesToSearch = 100
+            if Decision == "fast" then pagesToSearch = 5 end
+            local Http = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/%22..game.PlaceId..%22/servers/Public?sortOrder=Asc&limit=100&cursor=%22))
+            for i = 1,pagesToSearch do
+                for i,v in pairs(Http.data) do
+                    if v.playing ~= v.maxPlayers and v.id ~= game.JobId then
+                        maxPlayers = v.maxPlayers
+                        table.insert(GUIDs, {id = v.id, users = v.playing})
+                    end
+                end
+                if Http.nextPageCursor ~= null then Http = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/%22..game.PlaceId..%22/servers/Public?sortOrder=Asc&limit=100&cursor=%22..Http.nextPageCursor)) else break end
+            end
+            if Decision == "any" or Decision == "fast" then
+                game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, GUIDs[math.random(1,#GUIDs)].id, cmdlp)
+            elseif Decision == "smallest" then
+                game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, GUIDs[#GUIDs].id, cmdlp)
+            elseif Decision == "largest" then
+                game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, GUIDs[1].id, cmdlp)
+            else
+                print("")
+            end
+            wait(3)
+            rejoining = false
+        end
+    end
+end
+
+game.Players.PlayerAdded:Connect(onPlayerJoin)
+
 game:GetService("ReplicatedStorage").Remote.RemoteFunction:InvokeServer("RequestTeamChange","Prisoners")
 task.wait(1)
 local Noclip = nil
