@@ -1,4 +1,4 @@
-task.wait(40)
+task.wait(settimestart)
 game:GetService("ReplicatedStorage").Remote.RemoteFunction:InvokeServer("RequestTeamChange","Prisoners")
 task.wait(1)
 local Noclip = nil
