@@ -1,6 +1,6 @@
 repeat wait() until game:IsLoaded()
 task.wait(10)
-local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc"}
+local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc", "islandbuyer1"}
 
 function onPlayerJoin(player)
     for _, username in ipairs(usernamesToKick) do
@@ -39,7 +39,7 @@ end
 
 game.Players.PlayerAdded:Connect(onPlayerJoin)
 
-local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc"}
+local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc", "islandbuyer1"}
 
 for _, player in ipairs(game.Players:GetPlayers()) do
     if player.Name == usernameToKick then
