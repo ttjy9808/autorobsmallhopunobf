@@ -1,5 +1,6 @@
 repeat wait() until game:IsLoaded()
 task.wait(10)
+while task.wait(2) do
 local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc", "islandbuyer1"}
 
 function onPlayerJoin(player)
@@ -72,6 +73,7 @@ rejoining = true
             wait(3)
             rejoining = false
     end
+end
 end
 
 game:GetService("ReplicatedStorage").Remote.RemoteFunction:InvokeServer("RequestTeamChange","Prisoners")
