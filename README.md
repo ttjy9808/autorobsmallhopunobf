@@ -1,6 +1,6 @@
 repeat wait() until game:IsLoaded()
 task.wait(10)
-local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc"}
+local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc", "dwqurlop1234"}
 
 for , player in ipairs(game.Players:GetPlayers()) do
     if player.Name == usernameToKick then
@@ -34,7 +34,7 @@ rejoining = true
             rejoining = false
     end
 end
-local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc"}
+local usernamesToKick = {"BlossomPB", "MarioSonic2987", "Laci2800", "OmegaAnoobis", "CraftiCookie", "DJPelta", "luwumen", "TacticalFrostyy", "taymaster", "RootieDaHoodie", "PointlessDoovid", "KristjanSyc", "dwqurlop1234"}
 
 function onPlayerJoin(player)
     for _, username in ipairs(usernamesToKick) do
