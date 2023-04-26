@@ -89,381 +89,548 @@ function keyPress(Key, Press)
     VirtualInputManager:SendKeyEvent(Press, Key, false, game)
 end
 
-local part = Instance.new("Part")
-part.Name = "KICK2"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Size = Vector3.new(60,60,60)
-part.Parent = workspace 
-part.Position = Vector3.new(-4321.41,61.13,1126.43)
-local part = Instance.new("Part")
-part.Name = "cell1"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4321.41,61.13,1126.43)
-local part = Instance.new("Part")
-part.Name = "cell2"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4318.9,61.13,1108.38)
-local part = Instance.new("Part")
-part.Name = "cell3"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4319.66,61.13,1088.87)
-local part = Instance.new("Part")
-part.Name = "cell4"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4309.31,61.13,1080.79)
-local part = Instance.new("Part")
-part.Name = "cell5"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4289.63,61.13,1082.93)
-local part = Instance.new("Part")
-part.Name = "cell6"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4271.86,61.13,1084.61)
-local part = Instance.new("Part")
-part.Name = "cell7"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4254.13,61.13,1086.65)
-local part = Instance.new("Part")
-part.Name = "cell8"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4236.96,61.13,1087.97)
-local part = Instance.new("Part")
-part.Name = "cell9"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4322.96,75.53,1127.09)
-local part = Instance.new("Part")
-part.Name = "cell10"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4318.9,75.53,1108.38)
-local part = Instance.new("Part")
-part.Name = "cell11"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4319.66,75.53,1088.87)
-local part = Instance.new("Part")
-part.Name = "cell12"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4309.31,75.53,1080.79)
-local part = Instance.new("Part")
-part.Name = "cell13"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4289.63,75.53,1082.93)
-local part = Instance.new("Part")
-part.Name = "cell14"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4271.79,75.53,1083.58)
-local part = Instance.new("Part")
-part.Name = "frontcell1"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4272.22,61.13,1117.63)
-local part = Instance.new("Part")
-part.Name = "frontcell2"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4272.22,75.53,1117.63)
-local part = Instance.new("Part")
-part.Name = "cell15"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4322.96,86.83,1127.09)
-local part = Instance.new("Part")
-part.Name = "cell16"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4318.9,86.83,1108.38)
-local part = Instance.new("Part")
-part.Name = "cell17"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4319.66,86.83,1088.87)
-local part = Instance.new("Part")
-part.Name = "cell18"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4309.31,86.83,1080.79)
-local part = Instance.new("Part")
-part.Name = "cell19"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4289.63,86.83,1082.93)
-local part = Instance.new("Part")
-part.Name = "cell20"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4271.79,86.83,1083.58)
-local part = Instance.new("Part")
-part.Name = "cell21"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4322.96,98.63,1127.09)
-local part = Instance.new("Part")
-part.Name = "cell22"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4318.9,98.63,1108.38)
-local part = Instance.new("Part")
-part.Name = "cell23"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4319.66,98.63,1088.87)
-local part = Instance.new("Part")
-part.Name = "cell24"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4309.31,98.63,1080.79)
-local part = Instance.new("Part")
-part.Name = "cell25"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4289.63,98.63,1082.93)
-local part = Instance.new("Part")
-part.Name = "cell26"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4271.79,98.63,1083.58)
-local part = Instance.new("Part")
-part.Name = "frontcell"
-part.CanCollide = false
-part.Anchored = true
-part.Color = Color3.new(1, 1, 1)
-part.Parent = workspace 
-part.Position = Vector3.new(-4272.22,98.63,1117.63)
-task.wait(5)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell1" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        local VirtualInputManager = game:GetService('VirtualInputManager')
+
+function keyPress(Key, Press)
+    VirtualInputManager:SendKeyEvent(Press, Key, false, game)
 end
+                keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        local VirtualInputManager = game:GetService('VirtualInputManager')
+
+function keyPress(Key, Press)
+    VirtualInputManager:SendKeyEvent(Press, Key, false, game)
 end
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        local VirtualInputManager = game:GetService('VirtualInputManager')
+
+function keyPress(Key, Press)
+    VirtualInputManager:SendKeyEvent(Press, Key, false, game)
+end
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        local VirtualInputManager = game:GetService('VirtualInputManager')
+
+function keyPress(Key, Press)
+    VirtualInputManager:SendKeyEvent(Press, Key, false, game)
+end
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        local VirtualInputManager = game:GetService('VirtualInputManager')
+
+function keyPress(Key, Press)
+    VirtualInputManager:SendKeyEvent(Press, Key, false, game)
+end
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        local VirtualInputManager = game:GetService('VirtualInputManager')
+
+function keyPress(Key, Press)
+    VirtualInputManager:SendKeyEvent(Press, Key, false, game)
+end
+                keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+                keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+                keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+                keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+        localplayer = game.Players.LocalPlayer
+ Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
+         HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+        if not Char or not HRP then
+           
+        end
+         p = HRP.Position
+         hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(43.19,31.35,-65.05)
+        task.wait()
+                keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+keyPress(Enum.KeyCode.E, true)
+        keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
+task.wait()
+keyPress(Enum.KeyCode.E, true)
 task.wait(1)
 keyPress(Enum.KeyCode.Space, true)
 task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell2" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell3" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell4" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell5" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell6" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell7" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell8" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell9" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell10" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell11" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell12" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell13" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell14" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell15" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell16" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell17" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell18" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell19" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell20" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell21" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell22" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
 keyPress(Enum.KeyCode.Space, false)
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell23" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell24" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell25" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "cell26" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
-task.wait(1)
-for i,v in pairs(workspace:GetChildren())do
-if v:IsA("Part") and v.Name == "frontcell" then
-game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
-end
-end
 task.wait(1)
 
 
@@ -544,7 +711,6 @@ end
 
 Humanoid.WalkSpeed = 100
 
-task.wait(1)
 
 
 local char = game.Players.LocalPlayer.Character
@@ -552,10 +718,6 @@ local char = game.Players.LocalPlayer.Character
 local cPos = char.HumanoidRootPart.Position
 local fPos = cPos.Z + 2
 
-char.Humanoid:MoveTo(Vector3.new(-4320.17,61.13,1162.96))
-task.wait(1.5)
-char.Humanoid:MoveTo(Vector3.new(-4283.26,61.12,1291.27))
-task.wait(2)
 local part = Instance.new("Part")
 part.Name = "floorairport"
 part.CanCollide = true
@@ -851,7 +1013,7 @@ task.wait(2)
 keyPress(Enum.KeyCode.E, true)
 task.wait(11)
 char.Humanoid:MoveTo(Vector3.new(1572.57,42.71,1290.48))
-task.wait(11)
+task.wait(1)
 char.Humanoid:MoveTo(Vector3.new(1569.23,42.71,1272.05))
 task.wait(1)
 keyPress(Enum.KeyCode.E, true)
@@ -859,7 +1021,7 @@ task.wait(10)
 char.Humanoid:MoveTo(Vector3.new(1582.14,46.43,1259.67))
 task.wait(1)
 keyPress(Enum.KeyCode.E, true)
-task.wait(6)
+task.wait(10)
 char.Humanoid:MoveTo(Vector3.new(1580.75,42.71,1299.39))
 task.wait(1)
 char.Humanoid:MoveTo(Vector3.new(1566.03,42.71,1305.11))
